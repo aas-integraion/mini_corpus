@@ -1,0 +1,14 @@
+language: java
+
+env:
+  global:
+    - TMPDIR=/tmp
+
+jdk:
+	- oraclejdk8
+
+python:
+	- 2.7
+
+script:   
+	- python build_all.py compile
